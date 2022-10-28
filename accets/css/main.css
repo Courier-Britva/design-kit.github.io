@@ -5,7 +5,7 @@
 }
 
 .Courier_Britva{
-    background-color: #e7e7e7;;
+    background-color: #e7e7e7;
     border: 1px solid black;
     padding: 5px 10px;
     border-radius: 10px;
@@ -332,7 +332,7 @@
 
 .body{
     overflow: hidden;
-    background: url(/accets/img/main-bloor.png) 50% 0 no-repeat scroll;
+    background: url(/design-kit/accets/img/main-bloor.png) 50% 0 no-repeat scroll;
 }
 
 .body-content{
@@ -491,7 +491,7 @@
 
     .body {
         overflow: hidden;
-        background: url(/accets/img/main-bloor.png) 100% 0 scroll;
+        background: url(/design-kit/accets/img/main-bloor.png) 100% 0 scroll;
     }
 
     .body-content__top>h1{
