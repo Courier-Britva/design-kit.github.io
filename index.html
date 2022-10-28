@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Артем Тарасов</title>
+    <link rel="stylesheet" href="/accets/css/normalize.css">
+    <link rel="stylesheet" href="/accets/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1>
+                    Привет! Я <a href="https://t.me/courier_britva">Артем Тарасов</a> и это мое тестовое задание :)
+                </h1>
+                <h2>
+                    Прочитай пожауйста этот текст:)
+                </h2>
+                <p>
+                    Я решил уместить задание в один файл для твоего удобства, ты можешь переключаться между первым и вторым этапом тестового задания просто кликая по кнопке ниже! Удачи :)
+                </p>
+                <div class="Courier_Britva_content">
+                    <a id="courier_britva"class="Courier_Britva link-dedicoration"> В бесконечность ! (и обратно)</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="Courier-britva-switch display-none">
+        <!-- HTML модального окна -->
+        <div id="openModal" class="modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h3 class="modal-title">Popup</h3>
+                    <a href="#close" title="Close" class="close">×</a>
+                    </div>
+                    <div class="modal-body">    
+                        <a href="https://t.me/courier_britva">Мой телеграм ;)</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- HTML модального окна -->
+        <div class="main">
+            <div class="container">
+                <div class="main-content">
+                    <div class="main-content__form-container">
+                        <form class="main-content__form">
+                            <label class="main-content__form_label" for="subscribeNews">Выберите бренд:</label>
+                                <div class="main-content__form_checkboxses">
+                                    <label class="main-content__form_container">Sarabanda
+                                        <input type="checkbox">
+                                        <span class="main-content__form_checkmark"></span>
+                                    </label>
+                                    <label class="main-content__form_container">Minibanda
+                                        <input type="checkbox">
+                                        <span class="main-content__form_checkmark"></span>
+                                    </label>
+                                    <label class="main-content__form_container">iDO
+                                        <input type="checkbox">
+                                        <span class="main-content__form_checkmark"></span>
+                                    </label>
+                                    <label class="main-content__form_container">Superga
+                                        <input type="checkbox">
+                                        <span class="main-content__form_checkmark"></span>
+                                    </label>
+                                </div>
+                            <div class="main-content__form__submit-container">
+                            <button class="main-content__form__submit custom-btn btn-13" type="submit">
+                                    <a class="link-dedicoration" href="#openModal">Заказать консультацию</a>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="main-content__tabs">
+                        <div class="tabs">
+                            <input type="radio" name="tab-btn" id="tab-btn-1" value="" checked>
+                            <label for="tab-btn-1">Самый дешевый</label>
+                            <input type="radio" name="tab-btn" id="tab-btn-2" value="">
+                            <label for="tab-btn-2">Самый быстрый</label>
+                        
+                            <div id="content-1">
+                                <div class="ticket-element">
+                                    <div class="ticket-element__top">
+                                        <span class="ticket-element__top_price">
+                                            13 400 ₽
+                                        </span>
+                                        <span class="ticket-element__top_owner">
+                                            Airlines
+                                        </span>
+                                    </div>
+                                    <div class="ticket-element__bottom">
+                                        <div class="ticket-element__bottom__row">
+                                            <div class="ticket-element__bottom-element">
+                                                <span class="ticket-element__bottom-head">
+                                                    MOW - HKT
+                                                </span>
+                                                <span class="head ticket-element__bottom-dit">
+                                                    10:45 - 08:00
+                                                </span>
+                                            </div>
+                                            <div class="ticket-element__bottom-element">
+                                                <span class="ticket-element__bottom-head">
+                                                    В пути
+                                                </span>
+                                                <span class="head ticket-element__bottom-dit">
+                                                    21ч 15м
+                                                </span>
+                                            </div>
+                                            <div class="ticket-element__bottom-element">
+                                                <span class="ticket-element__bottom-head">
+                                                    2 пересадки
+                                                </span>
+                                                <span class="head ticket-element__bottom-dit">
+                                                    HKG, JNB
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="ticket-element__bottom__row">
+                                            <div class="ticket-element__bottom-element">
+                                                <span class="ticket-element__bottom-head">
+                                                    MOW - HKT
+                                                </span>
+                                                <span class="head ticket-element__bottom-dit">
+                                                    11:20 - 00:50
+                                                </span>
+                                            </div>
+                                            <div class="ticket-element__bottom-element">
+                                                <span class="ticket-element__bottom-head">
+                                                    В пути
+                                                </span>
+                                                <span class="head ticket-element__bottom-dit">
+                                                    13ч 30м
+                                                </span>
+                                            </div>
+                                            <div class="ticket-element__bottom-element">
+                                                <span class="ticket-element__bottom-head">
+                                                    1 пересадка
+                                                </span>
+                                                <span class="head ticket-element__bottom-dit">
+                                                    HKG
+                                                </span>
+                                            </div>            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ticket-element">
+                                    <div class="ticket-element__top">
+                                        <span class="ticket-element__top_price">
+                                            17 800 ₽
+                                        </span>
+                                        <span class="ticket-element__top_owner">
+                                            Airlines
+                                        </span>
+                                    </div>
+                                    <div class="ticket-element__bottom">
+                                        <div class="ticket-element__bottom__row">
+                                            <div class="ticket-element__bottom-element">
+                                                <span class="ticket-element__bottom-head">
+                                                    MOW - HKT
+                                                </span>
+                                                <span class="head ticket-element__bottom-dit">
+                                                    10:45 - 00:00
+                                                </span>
+                                            </div>
+                                            <div class="ticket-element__bottom-element">
+                                                <span class="ticket-element__bottom-head">
+                                                    В пути
+                                                </span>
+                                                <span class="head ticket-element__bottom-dit">
+                                                    13ч 15м
+                                                </span>
+                                            </div>
+                                            <div class="ticket-element__bottom-element">
+                                                <span class="ticket-element__bottom-head">
+                                                    2 пересадки
+                                                </span>
+                                                <span class="head ticket-element__bottom-dit">
+                                                    HKG, JNB
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="ticket-element__bottom__row">
+                                            <div class="ticket-element__bottom-element">
+                                                <span class="ticket-element__bottom-head">
+                                                    MOW - HKT
+                                                </span>
+                                                <span class="head ticket-element__bottom-dit">
+                                                    11:20 - 00:50
+                                                </span>
+                                            </div>
+                                            <div class="ticket-element__bottom-element">
+                                                <span class="ticket-element__bottom-head">
+                                                    В пути
+                                                </span>
+                                                <span class="head ticket-element__bottom-dit">
+                                                    13ч 30м
+                                                </span>
+                                            </div>
+                                            <div class="ticket-element__bottom-element">
+                                                <span class="ticket-element__bottom-head">
+                                                    1 пересадка
+                                                </span>
+                                                <span class="head ticket-element__bottom-dit">
+                                                    HKG
+                                                </span>
+                                            </div>            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="content-2">
+                                <div class="ticket-element">
+                                    <div class="ticket-element__top">
+                                        <span class="ticket-element__top_price">
+                                            17 800 ₽
+                                        </span>
+                                        <span class="ticket-element__top_owner">
+                                            Airlines
+                                        </span>
+                                    </div>
+                                    <div class="ticket-element__bottom">
+                                        <div class="ticket-element__bottom__row">
+                                            <div class="ticket-element__bottom-element">
+                                                <span class="ticket-element__bottom-head">
+                                                    MOW - HKT
+                                                </span>
+                                                <span class="head ticket-element__bottom-dit">
+                                                    10:45 - 00:00
+                                                </span>
+                                            </div>
+                                            <div class="ticket-element__bottom-element">
+                                                <span class="ticket-element__bottom-head">
+                                                    В пути
+                                                </span>
+                                                <span class="head ticket-element__bottom-dit">
+                                                    13ч 15м
+                                                </span>
+                                            </div>
+                                            <div class="ticket-element__bottom-element">
+                                                <span class="ticket-element__bottom-head">
+                                                    2 пересадки
+                                                </span>
+                                                <span class="head ticket-element__bottom-dit">
+                                                    HKG, JNB
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="ticket-element__bottom__row">
+                                            <div class="ticket-element__bottom-element">
+                                                <span class="ticket-element__bottom-head">
+                                                    MOW - HKT
+                                                </span>
+                                                <span class="head ticket-element__bottom-dit">
+                                                    11:20 - 00:50
+                                                </span>
+                                            </div>
+                                            <div class="ticket-element__bottom-element">
+                                                <span class="ticket-element__bottom-head">
+                                                    В пути
+                                                </span>
+                                                <span class="head ticket-element__bottom-dit">
+                                                    13ч 30м
+                                                </span>
+                                            </div>
+                                            <div class="ticket-element__bottom-element">
+                                                <span class="ticket-element__bottom-head">
+                                                    1 пересадка
+                                                </span>
+                                                <span class="head ticket-element__bottom-dit">
+                                                    HKG
+                                                </span>
+                                            </div>            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ticket-element">
+                                    <div class="ticket-element__top">
+                                        <span class="ticket-element__top_price">
+                                            13 400 ₽
+                                        </span>
+                                        <span class="ticket-element__top_owner">
+                                            Airlines
+                                        </span>
+                                    </div>
+                                    <div class="ticket-element__bottom">
+                                        <div class="ticket-element__bottom__row">
+                                            <div class="ticket-element__bottom-element">
+                                                <span class="ticket-element__bottom-head">
+                                                    MOW - HKT
+                                                </span>
+                                                <span class="head ticket-element__bottom-dit">
+                                                    10:45 - 08:00
+                                                </span>
+                                            </div>
+                                            <div class="ticket-element__bottom-element">
+                                                <span class="ticket-element__bottom-head">
+                                                    В пути
+                                                </span>
+                                                <span class="head ticket-element__bottom-dit">
+                                                    21ч 15м
+                                                </span>
+                                            </div>
+                                            <div class="ticket-element__bottom-element">
+                                                <span class="ticket-element__bottom-head">
+                                                    2 пересадки
+                                                </span>
+                                                <span class="head ticket-element__bottom-dit">
+                                                    HKG, JNB
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="ticket-element__bottom__row">
+                                            <div class="ticket-element__bottom-element">
+                                                <span class="ticket-element__bottom-head">
+                                                    MOW - HKT
+                                                </span>
+                                                <span class="head ticket-element__bottom-dit">
+                                                    11:20 - 00:50
+                                                </span>
+                                            </div>
+                                            <div class="ticket-element__bottom-element">
+                                                <span class="ticket-element__bottom-head">
+                                                    В пути
+                                                </span>
+                                                <span class="head ticket-element__bottom-dit">
+                                                    13ч 30м
+                                                </span>
+                                            </div>
+                                            <div class="ticket-element__bottom-element">
+                                                <span class="ticket-element__bottom-head">
+                                                    1 пересадка
+                                                </span>
+                                                <span class="head ticket-element__bottom-dit">
+                                                    HKG
+                                                </span>
+                                            </div>            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="Courier-britva-switch">
+        <div class="body">
+            <div class="container-for-land">
+                <div class="body-content">
+                        <div class="body-content-menu">
+                            <span class="body-content-mnnu-element">
+                                +
+                            </span>
+                        </div>
+                        <div class="body-content__top">
+                            <h1>
+                                Первые заявки из контекстной рекламы уже через 7 дней!
+                            </h1>
+                            <h2>
+                                Повышаем продажи, а не просто настраиваем контекстную рекламу
+                            </h2>
+                        </div>
+                        <div class="body-content__bottom">
+                            <a class="body-content__bottom-link">
+                                Оставить заявку
+                            </a>
+                            <span class="body-content__bottom-label body-content__img-animation">
+                                Получи подарок — часовая консультация маркетолога
+                            </span>
+                        </div>
+                        <img class="body-content__left-img body-content__img-animation" src="/accets/img/main-left.png" alt="">
+                        <img class="body-content__right-img body-content__img-animation" src="/accets/img/main-right.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/accets/js/main.js"></script>
+
+</body>
+</html>
